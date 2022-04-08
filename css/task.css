@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fleur+De+Leah&display=swap');
+
+body {
+    background-color: rgba(79, 107, 26, 0.486);
+    
+}
+
+.footer {
+    color: green;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.playground-heading {
+    color: rgb(255, 251, 4);
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 5rem;
+}
+
+.main {
+    border: 1px solid grey;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.pilt {      
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-bottom: 100px;
+    position: relative;
+    animation: imgfw;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes imgfw{
+    0% {top: -200px}
+    85% {top: 50px}
+    100% {top: 0px}
+}
+
+.koostis { 
+    border: 3px solid rgb(33, 167, 73);   
+    font-size: 2rem;
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    animation: koostisflow;
+    animation-duration: 5s;   
+       
+}
+
+@keyframes koostisflow {
+    0% {opacity: 0;}    
+    100% {opacity: 1;}
+}
+
+
+.astmed {
+    
+    font-size: 2rem;
+    color: rgb(62, 131, 233); 
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    animation: astmedflow;
+    animation-duration: 5s; 
+    position: relative;
+
+}
+
+@keyframes astmedflow {
+    0% {opacity: 0;}
+    0% {left: -200px}
+    100% {opacity: 1;}
+    100% {left: 0px}
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+li {
+    color:rgb(255, 251, 4);
+    font-size: 24px;
+}
+
+.allikas{
+    border: 3px solid rgb(33, 167, 73); 
+    font-size: 16pt;
+    text-align: center;
+    animation: allikasflow;
+    animation-duration: 5s; 
+    position: relative;
+
+}
+
+@keyframes allikasflow {
+    0% {font-size: 2pt;} 
+    60% {font-size: 20pt}   
+    100% {font-size: 16pt}
+}
+ 
+
+
+
+
+
+
+
+    
